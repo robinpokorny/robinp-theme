@@ -1,6 +1,6 @@
 /*
 Theme Name: robinp
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/robinpokorny/robinp-theme
 Author: Robin Pokorný
 Author URI: http://robin.medvedi.eu
 Description: Description
@@ -535,6 +535,12 @@ h1 a:hover {
 	margin-top: 80px;
 }
 
+.licence {
+	margin: 5px 0 15px;
+	font-size: 75%;
+	line-height: 17px;
+}
+
 /* =Content
 ----------------------------------------------- */
 
@@ -604,12 +610,24 @@ img.size-full {
 }
 .compfight small {
 	position: absolute;
-	bottom: 5px;
+	bottom: 8px;
 	right: 8px;
 	color: #202020;
 	font-size: 0.6em;
 	line-height: 18px;
 	text-shadow: 1px 1px 1px #CCC;
+}
+.compfight.cc small {
+	right: 25px;
+}
+.compfight.cc:after {
+	content: "";
+	position: absolute;
+	bottom: 9px;
+	right: 4px;
+	width: 16px;
+	height: 16px;
+	background: url(images/cc_logo.png);
 }
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {

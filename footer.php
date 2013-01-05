@@ -23,7 +23,9 @@
 
 		<div class="site-info">
 			<?php do_action( 'robinp_credits' ); ?>
-			&copy; 2012. All Rights Reserved.<br/>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="<?php bloginfo('template_directory'); ?>/images/cc_by.png" /></a>
+<div class="licence"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Robin Plus</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Robin Pokorný</span><br/>is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></div>
 			<a href="http://apple.com/" title="Made on a Mac"></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
