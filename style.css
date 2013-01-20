@@ -250,6 +250,10 @@ pre code {
 	border: 0;
 }
 
+.gist table {
+	margin: 0;
+}
+
 kbd, tt, var {
 	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
@@ -486,14 +490,27 @@ h1 a:hover {
 	height: 132px;
 }
 
+.psyche .profile {
+	position: absolute;
+	left: 50%;
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-left: -63px;
+	background: url(http://robin.medvedi.eu/wp-content/uploads/profile.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	border-radius: 50%;
+	border: 6px solid #790F5B;
+}
+
 .psyche .code {
 	position: absolute;
 	font-size: 11px;
 	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 .psyche .coffeescript {
-	left: 372px;
-	top: 23px;
+	left: 64.1%;
+	top: 17.4%;
 	transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
 	-webkit-transform: rotate(-5deg);
@@ -502,8 +519,8 @@ h1 a:hover {
 
 }
 .psyche .css3 {
-	left: 376px;
-	top: 71px;
+	left: 64.8%;
+	top: 53.7%;
 	transform: rotate(3deg);
 	-ms-transform: rotate(3deg); 
 	-webkit-transform: rotate(3deg);
@@ -514,8 +531,8 @@ h1 a:hover {
 .psyche .formula {
 	position: absolute;
 	width: 120px;
-	top: 70px;
-	left: 97px;
+	top: 53%;
+	left: 16.7%;
 	font-size: 14px;
 	transform: rotate(-4deg);
 	-ms-transform: rotate(-4deg); 
@@ -697,4 +714,39 @@ object {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+/* =iPhone
+----------------------------------------------- */
+
+@media only screen and (max-device-width : 580px) {
+
+.psyche .profile {
+	position: relative;
+	left: 0;
+	margin: 0;
+}
+
+.psyche .formula {
+	top: 25%;
+	right: 0;
+	left: auto;
+	font-size: 12px;
+	transform: none;
+	-ms-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+}
+
+.psyche .code {
+	right: 0;
+	font-size: 7px;
+	transform: none;
+	-ms-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+}
+ 
 }

@@ -57,7 +57,7 @@
 		</hgroup>
 
 		<figure class="psyche">
-			<a href="/" style="background: url(http://robin.medvedi.eu/wp-content/uploads/profile.jpg) no-repeat; box-shadow: 0 0 8px rgba(0, 0, 0, .8);	display: block; width: 120px; height: 120px; position: absolute; left: 50%; margin-left: -63px; border-radius: 50%; border: 6px solid #790F5B;"></a>
+			<a href="/" class="profile"></a>
 			<div class="formula">$$(\{x_n\},x)\in\Xi_X$$</div>
 			<div class="code coffeescript">square = (x) -> x * x</div>
 			<div class="code css3">article {column-count: 1;}</div>
