@@ -40,8 +40,6 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
-<meta name="google-site-verification" content="unpui4C9QA-jaxEbGcExJpmkeVk8M9FJzsQPCSAPlfs" />
-
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 <?php wp_head(); ?>
