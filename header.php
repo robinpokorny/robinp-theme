@@ -56,9 +56,10 @@
 
 		<figure class="psyche">
 			<a href="/" class="profile"></a>
-			<div class="formula">$$(\{x_n\},x)\in\Xi_X$$</div>
+			<div class="formula group-mapping">$$\pi: G \to G/H$$</div>
+			<div class="formula sequential">$$(\{x_n\},x)\in\Xi_X$$</div>
 			<div class="code coffeescript">square = (x) -> x * x</div>
-			<div class="code css3">article {column-count: 1;}</div>
+			<div class="code css3">.article {column-count: 2;}</div>
 		</figure>
 
 	</header><!-- #masthead .site-header -->
